@@ -1,4 +1,4 @@
-webinos-utilities
+ubiapps-utilities
 =================
 
-Common functionality used by webinos components
+Common functionality used by ubiapps components
