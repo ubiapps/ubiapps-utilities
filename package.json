@@ -1,0 +1,27 @@
+{ "name": "webinos-utilities"
+, "description": "A set of utilities files used by webinos pzh and pzp"
+, "version": "0.8.4"
+, "main": "index.js"
+, "bugs":"http://jira.webinos.org/browse/WP"
+, "dependencies":{
+    "schema": "0.x.x",
+    "webinos-jsonrpc2":"*",
+    "node-uuid": "1.x.x",
+    "emailjs": "0.3.x"
+}
+, "devDependencies": {
+    "jasmine-node" : "1.x.x"
+}
+, "bundleDependencies":["webinos-api-test"]
+, "engines": { 
+    "node": ">= 0.6.0"
+,   "npm": ">= 1.1.17"
+}
+, "scripts": {
+    "test": "jasmine-node ./test/jasmine"
+}
+, "repository":
+  { "type" : "git"
+  , "url"  : "https://github.com/webinos/webinos-utilities.git"
+  }
+}
